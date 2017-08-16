@@ -1,5 +1,6 @@
 import {Meteor} from 'meteor/meteor';
+import serverStartup from '../imports/core/data/serverStartup';
 
 Meteor.startup(() => {
-	// code to run on server at startup
+	serverStartup();
 });
