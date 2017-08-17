@@ -10,10 +10,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@thx/auth": "^1.0.0",
     "@thx/controls": "^1.0.0",
     "@thx/date": "^1.0.0",
     "@thx/messages": "^1.0.0",
     "@thx/notifications": "^1.0.0",
+    "@thx/router": "^1.0.0",
     "@thx/tproptypes": "^1.0.0",
     "babel-runtime": "^6.20.0",
     "bcrypt": "^1.0.2",

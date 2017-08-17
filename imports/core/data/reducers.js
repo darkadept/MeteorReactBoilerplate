@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux-immutablejs';
-import user from '../../user/reducers';
+import {reducer as auth} from '@thx/auth';
 
 export default function reducers() {
 	return combineReducers({
-		user,
+		auth,
 	});
 }

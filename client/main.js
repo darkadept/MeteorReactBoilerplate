@@ -3,7 +3,7 @@ import debug from 'debug';
 import {Meteor} from 'meteor/meteor';
 import {Tracker} from 'meteor/tracker';
 import {render} from 'react-dom';
-import makeStore from '../imports/core/lib/redux/makeStore';
+import makeStore from '../imports/core/redux/makeStore';
 import Root from '../imports/core/components/Root';
 import clientStartup from '../imports/core/data/clientStartup';
 

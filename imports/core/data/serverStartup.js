@@ -1,5 +1,5 @@
-import user from '../../user/server';
+import {publish} from '@thx/auth/dist/server';
 
 export default function serverStartup() {
-	user();
+	publish();
 }

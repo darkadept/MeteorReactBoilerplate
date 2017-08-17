@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {BrowserRouter as Router} from 'react-router-dom';
 import {Provider} from 'react-redux';
 import {NotificationSystem} from '@thx/notifications';
-import RouteDirector from '../lib/router/RouteDirector';
+import {RouteDirector} from '@thx/router';
 import routes, {routeDefaults} from '../data/routes';
 
 export default function Root(props) {
